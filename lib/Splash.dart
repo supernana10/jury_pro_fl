@@ -1,5 +1,6 @@
-import 'package:jury_pro/page/Accueil.dart';
+//import 'package:jury_pro/page/Accueil.dart';
 // import 'package:jury_pro/page/Home.dart';
+import 'package:JuryPro/accueil.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +20,7 @@ class _SplashState extends State<Splash> {
   Widget build(BuildContext context) {
     return new SplashScreen(
       seconds: 3,
-      navigateAfterSeconds: new MyApp(),
+      navigateAfterSeconds: new Accueil(),
       title: new Text(
         ' Bienvenue sur Jury_Pro',
         textDirection: TextDirection.ltr,
